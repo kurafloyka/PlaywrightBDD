@@ -1,8 +1,8 @@
-npm init -y
-npm init playwright@latest
-npm i @cucumber/cucumber -D
-npm i ts-node -D
-npm test
+- npm init -y
+- npm init playwright@latest
+- npm i @cucumber/cucumber -D
+- npm i ts-node -D
+- npm test
 
 https://medium.com/@avsaryagmurr/playwright-and-cucumber-automation-guide-1-installing-6e2f9afc46cf
 
