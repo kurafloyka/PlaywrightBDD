@@ -1,10 +1,7 @@
 import { Given, When, Then, Before } from "@cucumber/cucumber";
 import apiController from "./setup/api.controller";
 
-Before(async function (scenario) {
 
-  
-});
 
 Given("User navigates to the practice application", async function () {
   console.log("one");
