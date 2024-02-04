@@ -9,3 +9,11 @@ https://medium.com/@avsaryagmurr/playwright-and-cucumber-automation-guide-1-inst
 https://medium.com/@avsaryagmurr/playwright-and-cucumber-automation-using-typescript-guide-2-enhancing-login-scenarios-4456eaa0eaf4
 
 npm run test:failed
+
+    "cucumber.features": [
+      "src/test/features/*.feature",
+    ],
+    "cucumber.glue": [
+        "src/test/steps/*.ts"
+
+    ],
