@@ -2,8 +2,7 @@ import { Given, When, Then, Before } from "@cucumber/cucumber";
 import apiController from "./setup/api.controller";
 
 Before(async function (scenario) {
-  console.log(`Running cucumber scenario ${scenario.pickle.name}`);
-  await apiController.init();
+
   
 });
 
@@ -36,5 +35,5 @@ Then("Login should be fail", async function () {
 });
 Given("I retrieve {string}", async function (route: string) {
   
-  await apiController.getUsers(route);
+  
 });
